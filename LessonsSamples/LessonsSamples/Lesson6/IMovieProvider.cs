@@ -19,7 +19,9 @@ namespace LessonsSamples.Lesson6
     {
     }
 
-    class Movie
+    public class Movie
     {
+        public string Title { get; set; }
+        public int Rating { get; set; }
     }
 }

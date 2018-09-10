@@ -1,6 +1,6 @@
 namespace LessonsSamples.Lesson6
 {
-    interface IEntityConsoleReader
+    interface IEntityReader
     {
         IEntityFieldsReader<T> BeginEntityRead<T>();
     }
